@@ -9,7 +9,7 @@ Catatan teknis buat maintain README ini. File ini boleh dihapus kalau nggak perl
 | Bagian | Status |
 |---|---|
 | Banner GIF | ✅ `assets/funny-man-gif-funny-man.gif` (498×212) |
-| Spotify Recently Played | ⏳ **butuh authorize sekali** — lihat bagian Spotify |
+| Spotify Recently Played | ✅ sudah diauthorize, render 5 lagu asli |
 | Letterboxd Recently Watched | ✅ auto dari RSS `letterboxd.com/hgnhao/rss/` |
 | Skillicons / Badges / Typing SVG / Footer | ✅ semua 200 OK |
 | GitHub Stats card | ⚠️ instance publik lagi 503, lihat bagian bawah |
@@ -35,13 +35,9 @@ README sekarang pakai [JeffreyCA/spotify-recently-played-readme](https://github.
 
 **Kenapa ganti servis:** kartu kittinan yang lama secara teknis nggak bisa nampilin recently played. Label yang dia punya cuma `Now playing on Spotify`, `Currently not playing`, dan `Offline` — semuanya hardcoded di servisnya, nggak ada parameter buat ganti mode.
 
-### Yang harus kamu lakuin
+Sudah diauthorize dan sudah jalan.
 
-1. Buka **https://spotify-recently-played-readme.vercel.app/**
-2. Klik authorize → login pakai akun Spotify `hgnhao` → Agree
-3. Selesai. Kartunya langsung jalan, nggak ada uid yang perlu ditempel.
-
-**Sebelum kamu authorize, kartunya nampilin tulisan "Spotify authorization needed".** Ini normal, bukan bug.
+> ⚠️ **Penting:** parameter `user` diisi **uid Spotify** (`433u3cfkqmvawbehz0k5eyvnm`), **bukan** username `hgnhao`. Awalnya saya isi `hgnhao` dan hasilnya "Spotify authorization needed" — uid-nya kelihatan di halaman generator setelah authorize.
 
 Parameter yang ada: `user`, `count` (1–10, sekarang 5), `width` (300–1000, sekarang 600), `unique` (true = skip lagu yang diulang).
 
@@ -60,6 +56,16 @@ Servisnya [nikitalpopov/letterboxd-profile](https://github.com/nikitalpopov/lett
 Format lain: `/api/svg/hgnhao` (dipakai sekarang), `/api/png/hgnhao`, `/api/html/hgnhao`.
 
 Syarat: profil Letterboxd harus **public**.
+
+---
+
+## Badge visitor counter
+
+Warna teks badge **tidak bisa diubah**. komarev hardcode `fill="#fff"` buat label maupun angkanya, dan cuma nerima parameter: `username`, `color`, `style`, `label`, `base`, `abbreviated`. Saya cek dua alternatif — shields.io dan hits.sh — dua-duanya juga hardcode `fill="#fff"`.
+
+Jadi kontras diperbaiki dari sisi background: `color=FFE81F` → **`0d1117`**, jadi teks putihnya kebaca jelas dan nyatu sama dark theme.
+
+> Badge **Portfolio** di header punya masalah yang sama (teks putih di atas kuning `FFE81F`). Belum saya ubah karena kamu nggak minta — bilang aja kalau mau dijadiin dark juga.
 
 ---
 
