@@ -4,7 +4,7 @@
 <img src="./assets/funny-man-gif-funny-man.gif" alt="Star Wars" width="500" />
 
 <!-- ═══════════════ HEADER ═══════════════ -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=30&duration=3000&pause=800&color=FFE81F&center=true&vCenter=true&width=800&height=70&lines=A+long+time+ago+in+a+galaxy+far%2C+far+away...;Hi%2C+I'm+Kefas+Jonathan+%F0%9F%91%8B;Software+Engineer+%26+Product+Designer;Informatics+%40+Institut+Teknologi+Bandung" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=30&duration=3000&pause=800&color=FFE81F&center=true&vCenter=true&width=800&height=70&lines=A+long+time+ago+in+a+galaxy+far%2C+far+away...;Hi%2C+I'm+Kefas!+%F0%9F%91%8B;Software+%26+Product+Engineer;Informatics+%40+Institut+Teknologi+Bandung" alt="Typing SVG" />
 
 <p>
   <a href="https://kefas.my.id"><img src="https://img.shields.io/badge/Portfolio-kefas.my.id-FFE81F?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio" /></a>
@@ -21,7 +21,8 @@
 
 ```yaml
 name:      Kefas Jonathan
-role:      Product Designer @ Inkubator IT
+role:      Software & Product Engineer
+current:   Product Designer @ Inkubator IT
            Software Engineering Lab Assistant @ STEI ITB
 studying:  B.Eng Informatics — Institut Teknologi Bandung (2023 – 2027)
 focus:     [ Software Engineering, Product Design, AI, Data-Driven Systems ]
@@ -44,11 +45,14 @@ motto:     "Turning ideas into experiences."
 ### Languages
 <img src="https://skillicons.dev/icons?i=py,c,cpp,java,js,ts,go&perline=7" alt="Languages" />
 
-### Frontend & Design
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,figma&perline=6" alt="Frontend" />
+### Frontend & Mobile
+<img src="https://skillicons.dev/icons?i=react,nextjs,vue,flutter,tailwind,html,css&perline=7" alt="Frontend & Mobile" />
 
-### Database & Tools
-<img src="https://skillicons.dev/icons?i=postgres,mysql,docker,git,github,vscode&perline=6" alt="Tools" />
+### Backend & Database
+<img src="https://skillicons.dev/icons?i=spring,postgres,mysql,docker&perline=4" alt="Backend & Database" />
+
+### Tools & Design
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma&perline=4" alt="Tools & Design" />
 
 </div>
 
@@ -61,21 +65,28 @@ motto:     "Turning ideas into experiences."
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=hgnhao&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=FFE81F&icon_color=FFE81F&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hgnhao&layout=compact&langs_count=8&hide_border=true&title_color=FFE81F&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=hgnhao&hide_border=true&background=0d1117&stroke=FFE81F&ring=FFE81F&fire=FFE81F&currStreakLabel=FFE81F&sideNums=c9d1d9&sideLabels=c9d1d9&dates=8b949e" alt="GitHub Streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=hgnhao&bg_color=0d1117&color=FFE81F&line=FFE81F&point=ffffff&area=true&hide_border=true" alt="Activity Graph" />
-
 </div>
 
 ---
 
-## 🎧 Now Playing
+## 🎧 Recently Played
 
 <div align="center">
 
 <a href="https://open.spotify.com/user/hgnhao">
-  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=433u3cfkqmvawbehz0k5eyvnm&cover_image=true&theme=default&show_offline=true&background_color=0d1117&interchange=false&bar_color=FFE81F&bar_color_cover=false&profanity=false&hide_remaster=false" alt="Spotify Now Playing" />
+  <img src="https://spotify-recently-played-readme.vercel.app/api?user=hgnhao&count=5&width=600" alt="Spotify recently played" />
 </a>
+
+<sub>🎵 My last 5 tracks on <a href="https://open.spotify.com/user/hgnhao">Spotify</a></sub>
+
+<!--
+  FALLBACK — kartu "Now Playing" (kittinan). Kalau yang di atas bermasalah,
+  hapus blok <a> di atas dan uncomment blok ini:
+
+  <a href="https://open.spotify.com/user/hgnhao">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=433u3cfkqmvawbehz0k5eyvnm&cover_image=true&theme=default&show_offline=true&background_color=0d1117&interchange=false&bar_color=FFE81F&bar_color_cover=false&profanity=false&hide_remaster=false" alt="Spotify Now Playing" />
+  </a>
+-->
 
 </div>
 
@@ -99,6 +110,10 @@ motto:     "Turning ideas into experiences."
 
 <div align="center">
 
+### 💡 Got an idea? Let's make it happen.
+
+<p><i>Whether it's a product, a side project, or something you've only sketched on a napkin —<br>reach out and let's build it together.</i></p>
+
 <a href="https://kefas.my.id"><img src="https://img.shields.io/badge/Website-kefas.my.id-FFE81F?style=flat-square&logo=googlechrome&logoColor=black" /></a>
 <a href="https://www.linkedin.com/in/kefas-jonathan/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:kefasj@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
@@ -108,6 +123,6 @@ motto:     "Turning ideas into experiences."
 
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:FFE81F&height=120&section=footer&text=May%20the%20Force%20be%20with%20you&fontColor=ffffff&fontSize=24&fontAlignY=70" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:FFE81F&height=120&section=footer" alt="footer" />
 
 </div>

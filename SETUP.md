@@ -9,12 +9,10 @@ Catatan teknis buat maintain README ini. File ini boleh dihapus kalau nggak perl
 | Bagian | Status |
 |---|---|
 | Banner GIF | ✅ `assets/funny-man-gif-funny-man.gif` (498×212) |
-| Spotify Now Playing | ✅ uid `433u3cfkqmvawbehz0k5eyvnm` — sudah ditest, render "Now playing" |
+| Spotify Recently Played | ⏳ **butuh authorize sekali** — lihat bagian Spotify |
 | Letterboxd Recently Watched | ✅ auto dari RSS `letterboxd.com/hgnhao/rss/` |
-| Streak / Activity graph / Skillicons / Badges | ✅ semua 200 OK |
+| Skillicons / Badges / Typing SVG / Footer | ✅ semua 200 OK |
 | GitHub Stats card | ⚠️ instance publik lagi 503, lihat bagian bawah |
-
-**Nggak ada placeholder yang tersisa** — tinggal commit & push.
 
 ---
 
@@ -31,16 +29,27 @@ Repo `hgnhao/hgnhao` harus **public** biar README-nya muncul di halaman profil.
 
 ---
 
-## Spotify 🎧
+## Spotify 🎧 — ADA 1 LANGKAH YANG HARUS KAMU KERJAIN
 
-Pakai [kittinan/spotify-github-profile](https://github.com/kittinan/spotify-github-profile). uid kamu sudah terpasang.
+README sekarang pakai [JeffreyCA/spotify-recently-played-readme](https://github.com/JeffreyCA/spotify-recently-played-readme) — nampilin **5 lagu terakhir** yang kamu putar.
 
-Dua hal yang saya ubah dari snippet yang kamu dapat:
+**Kenapa ganti servis:** kartu kittinan yang lama secara teknis nggak bisa nampilin recently played. Label yang dia punya cuma `Now playing on Spotify`, `Currently not playing`, dan `Offline` — semuanya hardcoded di servisnya, nggak ada parameter buat ganti mode.
 
-- `show_offline=false` → **`true`** — biar pas Spotify lagi mati kartunya nampilin lagu terakhir, bukan kosong/rusak
-- `background_color=121212` → **`0d1117`** — nyamain sama background dark mode GitHub, jadi kartunya nyatu
+### Yang harus kamu lakuin
 
-Tema lain yang bisa dicoba di `theme=`: `default` (sekarang), `compact`, `novatorem`, `karaoke`, `natemoo-re`, `blur`.
+1. Buka **https://spotify-recently-played-readme.vercel.app/**
+2. Klik authorize → login pakai akun Spotify `hgnhao` → Agree
+3. Selesai. Kartunya langsung jalan, nggak ada uid yang perlu ditempel.
+
+**Sebelum kamu authorize, kartunya nampilin tulisan "Spotify authorization needed".** Ini normal, bukan bug.
+
+Parameter yang ada: `user`, `count` (1–10, sekarang 5), `width` (300–1000, sekarang 600), `unique` (true = skip lagu yang diulang).
+
+### Kalau nggak jalan
+
+Di `README.md` section 🎧 sudah saya siapin blok fallback dalam HTML comment — kartu "Now Playing" kittinan pakai uid kamu (`433u3...`), yang **sudah terverifikasi jalan**. Tinggal hapus blok `<a>` yang aktif, uncomment yang di komentar.
+
+Bedanya: fallback nampilin lagu yang lagi diputar (atau lagu terakhir kalau offline, karena `show_offline=true`), bukan daftar 5 lagu.
 
 ---
 
@@ -73,4 +82,6 @@ Kalau kartunya nggak muncul dan kamu mau yang permanen, deploy sendiri (gratis, 
 3. Tambah env var `PAT_1` = GitHub personal access token (scope `public_repo` cukup)
 4. Deploy, lalu replace semua `github-readme-stats.vercel.app` di README jadi domain Vercel kamu
 
-Kalau nggak mau ribet, hapus aja 2 baris `<img>` pertama di section `## 📊 GitHub Stats` — streak & activity graph pakai servis lain yang lagi sehat.
+Kalau nggak mau ribet, hapus aja seluruh section `## 📊 GitHub Stats`.
+
+> Catatan: widget streak (current/longest streak) dan contribution graph sudah dihapus atas permintaan, jadi section ini sekarang cuma berisi Stats card + Top Languages — dua-duanya dari servis yang lagi 503 itu. Artinya kalau servisnya nggak pulih, **seluruh** section ini kosong.
