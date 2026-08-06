@@ -4,7 +4,7 @@
 <img src="./assets/funny-man-gif-funny-man.gif" alt="Star Wars" width="500" />
 
 <!-- ═══════════════ HEADER ═══════════════ -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=30&duration=3000&pause=800&color=FFE81F&center=true&vCenter=true&width=800&height=70&lines=A+long+time+ago+in+a+galaxy+far%2C+far+away...;Hi%2C+I'm+Kefas!+%F0%9F%91%8B;Software+%26+Product+Engineer;Informatics+%40+Institut+Teknologi+Bandung" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=30&duration=3000&pause=800&color=FFE81F&center=true&vCenter=true&width=800&height=70&lines=A+long+time+ago+in+a+galaxy+far%2C+far+away...;Hi%2C+I'm+Kefas!;Software+%26+Product+Engineer;Informatics+%40+ITB" alt="Typing SVG" />
 
 <p>
   <a href="https://kefas.my.id"><img src="https://img.shields.io/badge/Portfolio-kefas.my.id-FFE81F?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio" /></a>
@@ -19,9 +19,9 @@
 
 ## What's Up! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 
-I'm Kefas, an informatics student who's spent the last few years happily stuck in the overlap between engineering and design. What keeps me here is the moment an abstract idea stops being a sketch and turns into something someone can actually open and use — I like writing the code *and* drawing the pixels that go on top of it.
+I'm Kefas, an informatics student who ended up somewhere between engineering and design and never really left. The part I like most is when an idea stops being a sketch and turns into something people can actually open and click around in. I write the code, and I usually end up designing the thing too.
 
-Lately most of my curiosity goes to artificial intelligence and data-driven systems: less about the models themselves, more about what happens when you put them in front of real people. If something can be built, I'm probably already thinking about how to build it.
+These days most of my curiosity goes to AI and data-driven systems. Not so much the models themselves, more what happens when you put them in front of real people. If something sounds buildable, I'm probably already thinking about how to build it.
 
 ---
 
@@ -47,8 +47,12 @@ Lately most of my curiosity goes to artificial intelligence and data-driven syst
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=hgnhao&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=FFE81F&icon_color=FFE81F&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hgnhao&layout=compact&langs_count=8&hide_border=true&title_color=FFE81F&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" />
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=hgnhao&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=FFE81F&icon_color=FFE81F&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hgnhao&layout=compact&langs_count=8&hide_border=true&title_color=FFE81F&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" />
+</p>
+
+<br />
 
 <a href="https://open.spotify.com/user/hgnhao">
   <img src="https://spotify-recently-played-readme.vercel.app/api?user=433u3cfkqmvawbehz0k5eyvnm&count=5&width=600" alt="Spotify recently played" />
@@ -72,14 +76,10 @@ Lately most of my curiosity goes to artificial intelligence and data-driven syst
 
 <sub>📽️ Auto-updated from my <a href="https://letterboxd.com/hgnhao/">Letterboxd</a> diary</sub>
 
-</div>
-
-## 🤝 Let's Connect
-
-<div align="center">
+<br />
 
 <p><b>💡 Got an idea? Let's make it happen.</b><br>
-<i>Whether it's a product, a side project, or something you've only sketched on a napkin —<br>reach out and let's build it together.</i></p>
+<i>A product, a side project, or something you've only sketched on a napkin.<br>Reach out and let's build it together.</i></p>
 
 <a href="https://kefas.my.id"><img src="https://img.shields.io/badge/Website-kefas.my.id-FFE81F?style=flat-square&logo=googlechrome&logoColor=black" /></a>
 <a href="https://www.linkedin.com/in/kefas-jonathan/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
