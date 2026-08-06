@@ -58,7 +58,7 @@ These days most of my curiosity goes to AI and data-driven systems. Not so much 
   <img src="https://spotify-recently-played-readme.vercel.app/api?user=433u3cfkqmvawbehz0k5eyvnm&count=5&width=600" alt="Spotify recently played" />
 </a>
 
-<sub>🎵 My last 5 tracks on <a href="https://open.spotify.com/user/hgnhao">Spotify</a></sub>
+<sub>my recent tracks on <a href="https://open.spotify.com/user/hgnhao">Spotify</a></sub>
 
 <!--
   FALLBACK — kartu "Now Playing" (kittinan), pakai uid yang sama.
@@ -74,12 +74,11 @@ These days most of my curiosity goes to AI and data-driven systems. Not so much 
   <img src="https://letterboxd-profile-github.netlify.app/api/svg/hgnhao" alt="Last 4 films watched on Letterboxd" width="100%" />
 </a>
 
-<sub>📽️ Auto-updated from my <a href="https://letterboxd.com/hgnhao/">Letterboxd</a> diary</sub>
+<sub>auto-updated from my <a href="https://letterboxd.com/hgnhao/">Letterboxd</a> diary</sub>
 
 <br />
 
-<p><b>💡 Got an idea? Let's make it happen.</b><br>
-<i>A product, a side project, or something you've only sketched on a napkin.<br>Reach out and let's build it together.</i></p>
+<p><b>Got an idea? Let's make it happen.</b><br>
 
 <a href="https://kefas.my.id"><img src="https://img.shields.io/badge/Website-kefas.my.id-FFE81F?style=flat-square&logo=googlechrome&logoColor=black" /></a>
 <a href="https://www.linkedin.com/in/kefas-jonathan/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
